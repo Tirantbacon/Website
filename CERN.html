@@ -3,31 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" language="JavaScript" src="javascripty.js"></script>
     <title>Title</title>
 </head>
 <body>
 
 <div id="nav">
-        <div id="nav-inner">
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
-                <li>
-                    <a href="Directories/Index.html">Directories</a>
-                </li>
-                <li>
-                    <a href="CERN.html" target="_blank">CERN Directories</a>
-                </li>
-                <li>
-                    <a href="LOCATIONS.html">Locations of Interest</a>
-                </li>
-            </ul>
-        </div>
+    <div id="nav-inner">
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="Directories/Index.html">Directories</a>
+            </li>
+            <li>
+                <a href="CERN.html" target="_blank">CERN Directories</a>
+            </li>
+            <li>
+                <a href="LOCATIONS.html">Locations of Interest</a>
+            </li>
+        </ul>
     </div>
+</div>
 <img src="cern_logo.svg" width="200px" height="200px" class="displayed">
+<div class="sub-page">
+   <!--- <div>
+        <form>
+            <input type="button" value="press this" onclick="clickbutton()"/>
+        </form> !---->
+    </div>
+    <div class="CERN-locations">
+        <div class="CERN-maps">
+            <div class="CERN-map">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1PHJwdUIvKSxuGmfwWx8sVIlW1bk&hl=en_US" width="640"
+                        height="698"></iframe>
+            </div>
+            <div class="CERN-map2">
+                <iframe class="CERN-map2-map" src="https://maps.cern.ch/?share=1dbd54ce-0a7b-42bb-a8f9-d3af6cf62f2d"
+                        width="1274" height="700" style="left: -2px; top: -1px; position: relative;"></iframe>
+            </div>
+        </div>
 
 
-
+    <div class="experiments">
+        <a href="https://home.cern/about/experiments">CERN EXPERIMENTS</a>
+    </div>
+</div>
+</div>
 </body>
 </html>
